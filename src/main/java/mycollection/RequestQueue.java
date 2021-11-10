@@ -1,4 +1,4 @@
-package com.mning.mycollection;
+package mycollection;
 //意义：了解 队列的 基本使用方法 如 addfirst removefirst element getfirst addlast
 //offerfirst() poll() peek()
 

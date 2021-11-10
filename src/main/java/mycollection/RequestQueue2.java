@@ -1,4 +1,4 @@
-package com.mning.mycollection;
+package mycollection;
 /*
 简答Lambda表达式
 使用匿名类语法实现request接口的实例

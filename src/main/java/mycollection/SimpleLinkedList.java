@@ -1,4 +1,4 @@
-package com.mning.mycollection;
+package mycollection;
 
 //了解List 的链接机制，
 public class SimpleLinkedList {

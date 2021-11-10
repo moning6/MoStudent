@@ -1,4 +1,4 @@
-package com.mning.mycollection;
+package mycollection;
 
 //意义：若是不重写equals和hashcode 则形同的对象，会出现 ，原因：因为你没说什么样的才算重复
 //利用Set 机制存放对象，显示结果为 设置的三个对象均存在，1 3 对象重复

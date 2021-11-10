@@ -1,4 +1,4 @@
-package com.mning.mycollection;
+package mycollection;
 //探究collection中 sort函数 重写
 
 

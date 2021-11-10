@@ -1,4 +1,4 @@
-package com.mning.mycollection;
+package mycollection;
 
 import java.util.Arrays;
 // <E>表示该类支撑泛型

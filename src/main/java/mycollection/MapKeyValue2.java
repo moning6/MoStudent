@@ -1,4 +1,4 @@
-package com.mning.mycollection;
+package mycollection;
 
 import java.util.Map;
 import java.util.TreeMap;

@@ -1,4 +1,4 @@
-package com.mning.mycollection;
+package mycollection;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;
