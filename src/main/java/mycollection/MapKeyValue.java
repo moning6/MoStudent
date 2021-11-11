@@ -18,6 +18,8 @@ public class MapKeyValue {
 
         System.out.println("显示值");
         map.values().forEach(key -> System.out.println(key));
+
     }
 }
+
 //错误: 找不到或无法加载主类 com.mning.mycollection.MapKeyValue
