@@ -21,13 +21,14 @@ public class ServerDemo {
 //        System.out.println("服务器启动");
 //        //创建监听
 //        //当服务器启动时，激活监听
+        //监听活动
 //        Socket socket = server.accept();
 //        InputStream in = socket.getInputStream();
 //        byte[] data = new byte[in.available()];
 //        in.read(data);
 //        socket.shutdownInput();//单方面关闭输入流
 //        System.out.println(new String(data));
-//        //向客户端相应
+//        //向客户端响应
 //        OutputStream out = socket.getOutputStream();
 //        out.write("hello clint".getBytes());
 //        out.flush();
@@ -41,9 +42,11 @@ public class ServerDemo {
         System.out.println("服务器启动");
         while(true){
             //创建监听
-            Socket socket = server.accept(); //当有客户端访问的时候，激活监听
+            // 当有客户端访问的时候，激活监听
+            Socket socket = server.accept();
             //NIO 一个请求 一次进程
-            new Thread(new ServerThread(socket)).start();//每次收到一个客户端的消息后，都会立即交给一个独立的线程处理
+            //每次收到一个客户端的消息后，都会立即交给一个独立的线程处理
+            new Thread(new ServerThread(socket)).start();
 
         }
         //bug: 1. 就是只能回一段消息  不能多次发送

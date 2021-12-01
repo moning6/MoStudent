@@ -16,6 +16,7 @@ public class ClinkDemo {
         服务器IP  服务器端口
         * */
         Scanner scanner = new Scanner(System.in);
+        //循环发送
         while (true) {
             Socket socket = new Socket("localhost", 9999);
             System.out.print("客户端：");

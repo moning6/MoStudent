@@ -1,7 +1,7 @@
 package mycollection;
 
 import java.util.Arrays;
-// <E>表示该类支撑泛型
+// <E>表示该类支撑泛型`````````````````````````````````````````````````````````````````````````````````````````````
 public class ArrayList<E>{
     private Object[] elems;
     private int next;
